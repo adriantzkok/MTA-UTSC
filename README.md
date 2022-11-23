@@ -33,7 +33,7 @@ For creativity, we used the FIFA attributes per player and determined specific a
 - power strength
 
 ## Y Variables
-The Y variable we have chosen is the points gained throughout the tournmanet of the Fifa world cup. While it is not a direct measure of "progression" (see for example belgium has more points than croatia despite placing lower), it is a fair estimate as the higher the placement of a team, the higher it's points will be.
+The Y variable we have chosen is the final position of each team of the Fifa world cup. While it is not a direct measure of "progression" (see for example belgium has more points than croatia despite placing lower), it is a fair estimate as the higher the placement of a team, the higher it's points will be.
 
 ## Result
 As we can see in the lm_wc.pdf file, we can see that the regression shows a weak correlation (0.33). Thus, there is not enough evidence to support the prompt. 
