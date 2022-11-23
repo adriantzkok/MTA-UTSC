@@ -1,0 +1,29 @@
+---
+title: "R Notebook"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+mydata <- read.csv("~/Desktop/grouped_by_country.csv")
+mydata
+
+WC <- as.matrix(mydata)
+WC
+
+p <- ncol(WC)
+p
+
+lmresult <- lm(Pos. ~ movement_acceleration + movement_agility + movement_balance + power_jumping + pace + movement_reactions + movement_sprint_speed + power_stamina + power_strength, data = mydata)
+summary(lmresult)
+```
+
+
+
