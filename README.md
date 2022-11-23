@@ -11,7 +11,7 @@ Refer to lm_wc.pdf for the regression run
 
 ## Data
 To craft our answer, we used the following data.
-[Fifa 22 Dataset](https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset) - For player attribute data
+[Fifa 22 Dataset](https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset) - For player attribute data  
 [Fifa 18 Results](https://en.wikipedia.org/wiki/2018_FIFA_World_Cup) - Scraped to get results of World cup
 
 ## Approach
@@ -35,7 +35,7 @@ For creativity, we used the FIFA attributes per player and determined specific a
 The Y variable we have chosen is the points gained throughout the tournmanet of the Fifa world cup. While it is not a direct measure of "progression" (see for example belgium has more points than croatia despite placing lower), it is a fair estimate as the higher the placement of a team, the higher it's points will be.
 
 ## Result
-As we can see in the lm_wc.pdf file, we can see that the regression shows a weak correlation. Thus, there is not enough evidence to support the prompt. 
+As we can see in the lm_wc.pdf file, we can see that the regression shows a weak correlation (0.33). Thus, there is not enough evidence to support the prompt. 
 
 
 
